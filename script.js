@@ -1,1 +1,1 @@
-$(document).ready(function(){$('body').css('display','none');$('body').fadeIn(1500);});
+var o=0,i=0;function f(){setInterval(s,15)}function s(){document.getElementById("body");(o=Number(window.getComputedStyle(body).getPropertyValue("opacity")))<1?(o+=.01,body.style.opacity=o):clearInterval(i)}window.onload=f;
